@@ -1,7 +1,99 @@
+import { Link } from "react-router-dom";
+import { Image } from "@imagekit/react";
 const SinglePostPage = () => {
   return (
-    <div className=''>SinglePostPage</div>
-  )
-}
+    <div className="flex flex-col gap-8">
+      {/* details */}
+      <div className="flex gap-8">
+        <div className="flex flex-col gap-8">
+          <div className="lg:w-2/5 flex flex-col gap-8">
+            <h1 className="text-xl md:text-3xl xl:text-4xl 2xl:text-5xl font-semibold text-justify ">
+              Lorem ipsum dolor sit amet consectetur adipisicing eli. Natus qui
+            </h1>
+          </div>
+          <div className="flex item-center gap-2 text-gray-400 text-sm">
+            <span>Written by</span>
+            <Link>Jean joe</Link>
+            <span>on</span>
+            <Link>Web design</Link>
+            <span>2 days ago</span>
+          </div>
+          <p className="text-gray-500 font-medium">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
+            quidem, quibusdam laudantium perspiciatis ut adipisci veniam cumque
+            distinctio! Deleniti alias repellat cum consectetur praesentium
+            consequatur sed totam ea sit consequuntur!
+          </p>
+        </div>
+        <div className="hidden lg:block w-2/5">
+          <Image
+            urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINT}
+            src="TOUCH-OIL.jpg"
+            alt="TOUCH-OIL.jpg"
+            className="rounded-2xl"
+          />
+        </div>
+      </div>
+      {/*Content*/}
+      <div className="flex flex-col md:flex-row gap-8">
+        {/*text*/}
+        <div className="lg:text-lg flex flex-col gap-6 text-justify">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis cumque consectetur asperiores laborum eaque
+            consequuntur hic quaerat. Vel possimus dolorem, atque dicta, facilis
+            aperiam cumque maiores, fugit voluptates accusantium a? Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Nemo similique officiis
+            inventore! Laudantium perferendis ratione, fugit animi at quidem et
+            quas laborum molestiae, ad magnam, officia sit fugiat aliquam
+            repudiandae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis cumque consectetur asperiores laborum eaque
+            consequuntur hic quaerat. Vel possimus dolorem, atque dicta, facilis
+            aperiam cumque maiores, fugit voluptates accusantium a? Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Nemo similique officiis
+            inventore! Laudantium perferendis ratione, fugit animi at quidem et
+            quas laborum molestiae, ad magnam, officia sit fugiat aliquam
+            repudiandae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis cumque consectetur asperiores laborum eaque
+            consequuntur hic quaerat. Vel possimus dolorem, atque dicta, facilis
+            aperiam cumque maiores, fugit voluptates accusantium a? Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Nemo similique officiis
+            inventore! Laudantium perferendis ratione, fugit animi at quidem et
+            quas laborum molestiae, ad magnam, officia sit fugiat aliquam
+            repudiandae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis cumque consectetur asperiores laborum eaque
+            consequuntur hic quaerat. Vel possimus dolorem, atque dicta, facilis
+            aperiam cumque maiores, fugit voluptates accusantium a? Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Nemo similique officiis
+            inventore! Laudantium perferendis ratione, fugit animi at quidem et
+            quas laborum molestiae, ad magnam, officia sit fugiat aliquam
+            repudiandae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis cumque consectetur asperiores laborum eaque
+            consequuntur hic quaerat. Vel possimus dolorem, atque dicta, facilis
+            aperiam cumque maiores, fugit voluptates accusantium a? Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Nemo similique officiis
+            inventore! Laudantium perferendis ratione, fugit animi at quidem et
+            quas laborum molestiae, ad magnam, officia sit fugiat aliquam
+            repudiandae.
+          </p>
+        </div>
+        {/*Menu */}
+        <div className="px-4 h-max sticky top-8"></div>
+      </div>
+    </div>
+  );
+};
 
-export default SinglePostPage
+export default SinglePostPage;
