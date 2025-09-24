@@ -90,7 +90,42 @@ const SinglePostPage = () => {
           </p>
         </div>
         {/*Menu */}
-        <div className="px-4 h-max sticky top-8"></div>
+        <div className="px-4 h-max sticky top-8">
+          <h1> Author</h1>
+          <div className="">
+            <Image
+              urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINT}
+              src="userImg.jpeg"
+              alt="userImg.jpeg"
+              className="w-12 h-12 rounded-full object-cover"
+            />
+            <Link> Olusola</Link>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <div className="flex gap-2">
+              <div>
+                <Link>
+                  <Image
+                    urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINT}
+                    src="facebook.svg"
+                    alt="facebook.svg"
+                    className="w-12 h-12 rounded-full object-cover"
+                  />
+                </Link>
+              </div>
+              <div>
+                <Link>
+                  <Image
+                    urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINT}
+                    src="instagram.svg"
+                    alt="instagram.svg"
+                    className="w-12 h-12
+                  rounded-full object-cover"
+                  />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
