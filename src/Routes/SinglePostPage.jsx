@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import { Image } from "@imagekit/react";
+import Search from "../Components/Search";
+import PostMenuAction from "../Components/PostMenuAction";
+import Comments from "../Components/Comments";
 const SinglePostPage = () => {
   return (
     <div className="flex flex-col gap-8">
@@ -86,12 +89,117 @@ const SinglePostPage = () => {
             dolor sit amet consectetur adipisicing elit. Nemo similique officiis
             inventore! Laudantium perferendis ratione, fugit animi at quidem et
             quas laborum molestiae, ad magnam, officia sit fugiat aliquam
-            repudiandae.
+            repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Atque nisi quia necessitatibus harum nostrum provident.
+            Facilis odio alias quisquam fugit nisi veritatis hic ratione minima
+            in. Voluptas quae ab animi? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Perspiciatis cumque consectetur asperiores laborum
+            eaque consequuntur hic quaerat. Vel possimus dolorem, atque dicta,
+            facilis aperiam cumque maiores, fugit voluptates accusantium a?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            similique officiis inventore! Laudantium perferendis ratione, fugit
+            animi at quidem et quas laborum molestiae, ad magnam, officia sit
+            fugiat aliquam repudiandae. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Atque nisi quia necessitatibus harum nostrum
+            provident. Facilis odio alias quisquam fugit nisi veritatis hic
+            ratione minima in. Voluptas quae ab animi?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis cumque consectetur asperiores laborum eaque
+            consequuntur hic quaerat. Vel possimus dolorem, atque dicta, facilis
+            aperiam cumque maiores, fugit voluptates accusantium a? Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Nemo similique officiis
+            inventore! Laudantium perferendis ratione, fugit animi at quidem et
+            quas laborum molestiae, ad magnam, officia sit fugiat aliquam
+            repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Atque nisi quia necessitatibus harum nostrum provident.
+            Facilis odio alias quisquam fugit nisi veritatis hic ratione minima
+            in. Voluptas quae ab animi? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Perspiciatis cumque consectetur asperiores laborum
+            eaque consequuntur hic quaerat. Vel possimus dolorem, atque dicta,
+            facilis aperiam cumque maiores, fugit voluptates accusantium a?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            similique officiis inventore! Laudantium perferendis ratione, fugit
+            animi at quidem et quas laborum molestiae, ad magnam, officia sit
+            fugiat aliquam repudiandae. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Atque nisi quia necessitatibus harum nostrum
+            provident. Facilis odio alias quisquam fugit nisi veritatis hic
+            ratione minima in. Voluptas quae ab animi?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis cumque consectetur asperiores laborum eaque
+            consequuntur hic quaerat. Vel possimus dolorem, atque dicta, facilis
+            aperiam cumque maiores, fugit voluptates accusantium a? Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Nemo similique officiis
+            inventore! Laudantium perferendis ratione, fugit animi at quidem et
+            quas laborum molestiae, ad magnam, officia sit fugiat aliquam
+            repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Atque nisi quia necessitatibus harum nostrum provident.
+            Facilis odio alias quisquam fugit nisi veritatis hic ratione minima
+            in. Voluptas quae ab animi? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Perspiciatis cumque consectetur asperiores laborum
+            eaque consequuntur hic quaerat. Vel possimus dolorem, atque dicta,
+            facilis aperiam cumque maiores, fugit voluptates accusantium a?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            similique officiis inventore! Laudantium perferendis ratione, fugit
+            animi at quidem et quas laborum molestiae, ad magnam, officia sit
+            fugiat aliquam repudiandae. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Atque nisi quia necessitatibus harum nostrum
+            provident. Facilis odio alias quisquam fugit nisi veritatis hic
+            ratione minima in. Voluptas quae ab animi?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis cumque consectetur asperiores laborum eaque
+            consequuntur hic quaerat. Vel possimus dolorem, atque dicta, facilis
+            aperiam cumque maiores, fugit voluptates accusantium a? Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Nemo similique officiis
+            inventore! Laudantium perferendis ratione, fugit animi at quidem et
+            quas laborum molestiae, ad magnam, officia sit fugiat aliquam
+            repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Atque nisi quia necessitatibus harum nostrum provident.
+            Facilis odio alias quisquam fugit nisi veritatis hic ratione minima
+            in. Voluptas quae ab animi? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Perspiciatis cumque consectetur asperiores laborum
+            eaque consequuntur hic quaerat. Vel possimus dolorem, atque dicta,
+            facilis aperiam cumque maiores, fugit voluptates accusantium a?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            similique officiis inventore! Laudantium perferendis ratione, fugit
+            animi at quidem et quas laborum molestiae, ad magnam, officia sit
+            fugiat aliquam repudiandae. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Atque nisi quia necessitatibus harum nostrum
+            provident. Facilis odio alias quisquam fugit nisi veritatis hic
+            ratione minima in. Voluptas quae ab animi?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis cumque consectetur asperiores laborum eaque
+            consequuntur hic quaerat. Vel possimus dolorem, atque dicta, facilis
+            aperiam cumque maiores, fugit voluptates accusantium a? Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Nemo similique officiis
+            inventore! Laudantium perferendis ratione, fugit animi at quidem et
+            quas laborum molestiae, ad magnam, officia sit fugiat aliquam
+            repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Atque nisi quia necessitatibus harum nostrum provident.
+            Facilis odio alias quisquam fugit nisi veritatis hic ratione minima
+            in. Voluptas quae ab animi? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Perspiciatis cumque consectetur asperiores laborum
+            eaque consequuntur hic quaerat. Vel possimus dolorem, atque dicta,
+            facilis aperiam cumque maiores, fugit voluptates accusantium a?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            similique officiis inventore! Laudantium perferendis ratione, fugit
+            animi at quidem et quas laborum molestiae, ad magnam, officia sit
+            fugiat aliquam repudiandae. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Atque nisi quia necessitatibus harum nostrum
+            provident. Facilis odio alias quisquam fugit nisi veritatis hic
+            ratione minima in. Voluptas quae ab animi?
           </p>
         </div>
         {/*Menu */}
         <div className="px-4 h-max sticky top-8">
-          <h1> Author</h1>
+          <h1 className="mt-8 mb-4 text-sm font-medium"> Author</h1>
           <div className="">
             <Image
               urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINT}
@@ -124,9 +232,34 @@ const SinglePostPage = () => {
                 </Link>
               </div>
             </div>
+            <PostMenuAction />
+            <h1 className="mt-8 mb-4 text-sm font-medium">Categories</h1>
+            <div className="flex flex-col gap-2 text-small">
+              <Link className="underline">All</Link>
+              <Link className="underline" to="/">
+                Perfume
+              </Link>
+              <Link className="underline" to="/">
+                Spray
+              </Link>
+              <Link className="underline" to="/">
+                Roll on
+              </Link>
+              <Link className="underline" to="/">
+                Majestic Oud
+              </Link>
+              <Link className="underline" to="/">
+                Perfume oil
+              </Link>
+            </div>
+            <h1 className="mt-8 mb-4 text-sm font-medium">Search</h1>
+
+            <Search />
           </div>
         </div>
+        
       </div>
+      <Comments/>
     </div>
   );
 };
