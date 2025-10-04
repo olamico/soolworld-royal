@@ -18,7 +18,7 @@ const Homepage = () => {
         {/*title*/}
         <div>
           <h1 className="text-gray-800 text-2xl md:text-4xl lg:text-5xl font-bold">
-            SOOLWORLD, ROYAL PEARL AND BEAUTY SCENTS
+            SOOLWORLD FRAGRANCE, SCENTS AND BEAUTY HUBS
           </h1>
           <p className="mt-8 text-md md:xl ">
             We deal in all types of perfumes, roll-on, body sprays, perfume oils
