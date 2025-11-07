@@ -10,11 +10,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@clerk/clerk-react": "^5.53.4",
     "imagekitio-react": "^4.3.0",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "react-router-dom": "^7.9.5"
+=======
+    "@clerk/clerk-react": "^5.46.2",
+    "@imagekit/react": "^5.0.1",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-quill-new": "^3.6.0",
+    "react-router-dom": "^7.8.2"
+>>>>>>> 12996742734dbad0258678093035451bf45bb6a0
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",

@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 import Image from "../Components/Image";
+=======
+import { Image } from "@imagekit/react";
+>>>>>>> 12996742734dbad0258678093035451bf45bb6a0
 import Search from "../Components/Search";
 import PostMenuAction from "../Components/PostMenuAction";
 import Comments from "../Components/Comments";
@@ -257,8 +261,14 @@ const SinglePostPage = () => {
             <Search />
           </div>
         </div>
+<<<<<<< HEAD
       </div>
       <Comments />
+=======
+        
+      </div>
+      <Comments/>
+>>>>>>> 12996742734dbad0258678093035451bf45bb6a0
     </div>
   );
 };

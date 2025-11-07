@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import Image from "./Image";
 import { useState } from "react";
 
+=======
+import { useState } from "react";
+
+import { Image } from "@imagekit/react";
+>>>>>>> 12996742734dbad0258678093035451bf45bb6a0
 import { Link } from "react-router-dom";
 import {
   SignedIn,

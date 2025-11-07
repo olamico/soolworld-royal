@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 12996742734dbad0258678093035451bf45bb6a0
 import { SignUp } from "@clerk/clerk-react";
 
 const RegisterPage = () => {

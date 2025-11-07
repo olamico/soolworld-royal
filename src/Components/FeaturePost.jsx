@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 import Image from "./Image";
 import { Link } from "react-router-dom";
 
+=======
+import { Link } from "react-router-dom";
+import { Image } from "@imagekit/react";
+>>>>>>> 12996742734dbad0258678093035451bf45bb6a0
 const FeaturePost = () => {
   return (
     <div className="mt-8 flex flex-col lg:flex-row gap-8">

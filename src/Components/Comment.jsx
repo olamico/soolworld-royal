@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import Image from "./Image";
+=======
+import { Image } from "@imagekit/react";
+>>>>>>> 12996742734dbad0258678093035451bf45bb6a0
 const Comment = () => {
   return (
     <div className="p-4 bg-slate-50 rounded-xl mb-8">
