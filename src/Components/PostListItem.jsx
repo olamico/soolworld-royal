@@ -1,20 +1,14 @@
-<<<<<<< HEAD
-import Image from "./Image";
-=======
-import { Image } from "@imagekit/react";
->>>>>>> 12996742734dbad0258678093035451bf45bb6a0
 import { Link } from "react-router-dom";
 const PostListItem = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-8">
       {/*Image */}
       <div className="md:hidden xl:block xl:w-1/3">
-        <Image
-          urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINT}
+        {/* <Image
           src="TOUCH-OIL.jpg"
           alt="TOUCH-OIL.jpg"
           className="rounded-2xl object-cover  h-80"
-        />
+        /> */}
       </div>
       {/*Details*/}
       <div className="flex flex-col gap-4 xl:w-2/3">

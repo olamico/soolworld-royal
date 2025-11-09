@@ -1,23 +1,12 @@
-<<<<<<< HEAD
-import Image from "./Image";
+import CustomImage from "./CustomImage";
 import { Link } from "react-router-dom";
-
-=======
-import { Link } from "react-router-dom";
-import { Image } from "@imagekit/react";
->>>>>>> 12996742734dbad0258678093035451bf45bb6a0
 const FeaturePost = () => {
   return (
     <div className="mt-8 flex flex-col lg:flex-row gap-8">
       {/*First */}
       <div className="w-full lg:w-1/2 flex flex-col gap-4">
         {/* image */}
-        <Image
-          urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINT}
-          src="TOUCH-OIL.jpg"
-          alt="TOUCH-OIL.jpg"
-          className="rounded-3xl object-cover"
-        />
+        <CustomImage src="TOUCH-OIL.jpg" className="rounded-3xl object-cover" />
         {/* details*/}
         <div className="flex items-center gap-4">
           <h1 className="font-semibold lg:text-lg">01</h1>
@@ -36,10 +25,8 @@ const FeaturePost = () => {
       <div className="w-full lg:w-1/2 flex flex-col gap-4">
         {/*second*/}
         <div className="lg:h-1/3 flex justify-between gap-4">
-          <Image
-            urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINT}
+          <CustomImage
             src="OIL.jpg"
-            alt="OIL.jpg"
             className="rounded-3xl object-cover w-1/3 aspect-video"
           />
           {/*Details and Title*/}
@@ -64,8 +51,7 @@ const FeaturePost = () => {
 
         {/*Third*/}
         <div className="lg:h-1/3 flex justify-between gap-4">
-          <Image
-            urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINT}
+          <CustomImage
             src="OIL.jpg"
             alt="OIL.jpg"
             className="rounded-3xl object-cover w-1/3 aspect-video"
@@ -91,8 +77,7 @@ const FeaturePost = () => {
         </div>
         {/*Fourth*/}
         <div className="lg:h-1/3 flex justify-between gap-4">
-          <Image
-            urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINT}
+          <CustomImage
             src="OIL.jpg"
             alt="OIL.jpg"
             className="rounded-3xl object-cover w-1/3 aspect-video"

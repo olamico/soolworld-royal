@@ -1,8 +1,4 @@
 import SideMenu from "../Components/SideMenu";
-<<<<<<< HEAD
-
-=======
->>>>>>> 12996742734dbad0258678093035451bf45bb6a0
 import PostList from "../Components/PostList";
 import { useState } from "react";
 const PostlistPage = () => {

@@ -1,26 +1,31 @@
 import Comment from "../Components/Comment";
 const Comments = () => {
   return (
-    <div className='flex flex-col gap-8 lg:w-3/5'>
-    <h1 ClassName="text-xl text-gray-500 underline">Comment</h1>
- <div className="flex items-center justify-between gap-8 w-full">
-  < textarea placeholder="write a comment" className="w-full rounded-xl p-4"/>
-  <button className="bg-blue-800 px-4 py-3 rounded-xl text-white font-medium">Send</button>
+    <div className="flex flex-col gap-8 lg:w-3/5">
+      <h1 ClassName="text-xl text-gray-500 underline">Comment</h1>
+      <div className="flex items-center justify-between gap-8 w-full">
+        <textarea
+          placeholder="write a comment"
+          className="w-full rounded-xl p-4"
+        />
+        <button className="bg-blue-800 px-4 py-3 rounded-xl text-white font-medium">
+          Send
+        </button>
+      </div>
+      <Comment />
+      <Comment />
+      <Comment />
+      <Comment />
+      <Comment />
+      <Comment />
+      <Comment />
+      <Comment />
+      <Comment />
+      <Comment />
+      <Comment />
+      <Comment />
     </div>
-    <Comment/>
-    <Comment/>
-    <Comment/>
-    <Comment/>
-    <Comment/>
-    <Comment/>
-    <Comment/>
-    <Comment/>
-    <Comment/>
-    <Comment/>
-    <Comment/>
-    <Comment/>
-    </div>
-  )
-}
+  );
+};
 
-export default Comments
+export default Comments;

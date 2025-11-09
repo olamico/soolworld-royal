@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-import Image from "./Image";
 import { useState } from "react";
-
-=======
-import { useState } from "react";
-
-import { Image } from "@imagekit/react";
->>>>>>> 12996742734dbad0258678093035451bf45bb6a0
+import CustomImage from "./CustomImage";
 import { Link } from "react-router-dom";
 import {
   SignedIn,
@@ -19,12 +12,9 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className="w-full h-16 md:h-20 flex items-center justify-between">
-      {/*LOGo */}
       <Link to="/" className="flex items-center gap-4 text-2xl font-bold">
-        <Image
-          urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINT}
+        <CustomImage
           src="soolworldlogo.jpeg"
-          alt="soolworldlogo"
           width={32}
           height={32}
           className="rounded"

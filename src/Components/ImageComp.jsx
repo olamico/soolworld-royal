@@ -1,4 +1,4 @@
-import { Image } from "@imagekit/react";
+/*import { Image } from "@imagekit/react";
 const ImageComp = ({ src, className, width, height, alt }) => {
   return (
     <Image
@@ -14,4 +14,4 @@ const ImageComp = ({ src, className, width, height, alt }) => {
   );
 };
 
-export default ImageComp;
+export default ImageComp;*/
