@@ -14,6 +14,7 @@ const Navbar = () => {
     <div className="w-full h-16 md:h-20 flex items-center justify-between">
       <Link to="/" className="flex items-center gap-4 text-2xl font-bold">
         <CustomImage
+          urlEndpoint="https://ik.imagekit.io/olamicoom/"
           src="soolworldlogo.jpeg"
           width={32}
           height={32}
